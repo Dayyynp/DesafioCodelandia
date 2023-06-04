@@ -1,0 +1,108 @@
+*{  font-family: 'Lexend Deca', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.boxPrincipal1{
+    
+    padding: 10px;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(52,70,126,1) 0%, rgba(0,212,255,1) 100%);
+}
+
+.boxPrincipal2{
+   
+    padding: 10px;
+    background-color: rgb(244, 240, 240);
+}
+
+.box1{
+    padding: 15px;
+    border-radius: 7px;
+    margin-top: 10px;
+    background-color: white;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.caixa1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.caixa1 span{
+    display: flex;
+    justify-content: end;
+
+}
+
+.caixa2{
+    display: grid;
+    grid-template-columns: 1fr 1fr
+}
+
+.caixa2 span{
+    display: flex;
+    justify-content: end;
+}
+
+.caixa3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.caixa3 span{
+    display: flex;
+    justify-content: end;
+}
+
+.caixxa1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.caixxa1 span{
+    display: flex;
+    justify-content: end;
+}
+
+.box1 h3{
+margin-top: 25px;
+}
+
+.box1 p{
+    margin-top: 5px;
+}
+
+.coracao img{
+    width: 20px;
+    height: 20px;
+}
+
+.caixxa1 h3{
+    color: white;
+}
+
+input{
+    border-radius: 10px;
+    width: 95%;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgba(240, 248, 255, 0.307);
+    
+}
+
+.inputPesquisa{
+    padding: 10px;
+    background-color: #fff;
+    font: 12px;
+    color: #999;
+    border: #ddd 1px solid;
+    border-radius: 3px;
+   background: #fff url(https://www.pinterest.pt/pin/689543392936326009/) no-repeat 90% center;
+}
